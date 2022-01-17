@@ -1,0 +1,84 @@
+h2 {
+    color:yellow;
+    background:black;
+    font-family: 'Neonderthaw', cursive;
+    text-align: center;
+}
+h3 {
+    color:yellow;
+    background: black;
+    font-family: 'Neonderthaw', cursive;
+    text-align: center;
+}
+#introduction {
+    color: black ;
+    font-family: 'Neonderthaw', cursive;
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+    border-radius: 50%;
+}
+
+p{
+    font-family: 'Crimson Pro', serif;
+        font-size: 24px;
+    text-align: center;
+}
+strong{
+    color: yellow;
+}
+div {
+    background: darkgray;
+    border: 3px solid gold;
+    margin: 10px;
+    border-radius: 4%;
+    box-shadow: 2px 2px 3px yellow;
+    width: auto;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+li {
+    display:inline;
+}
+ol {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+#entrepreuneuse {
+    background-color: darkgray;
+}
+#logo{
+    border-radius: 70%;
+    border:yellow
+}
+#equipe{
+    color: yellow;
+
+}
+@media (max-width:960px){
+    .container {
+        width:700px ;
+    }
+}
+@media (max-width:720px){
+    .container{
+        width: 600px;
+    }
+}
+@media (max-width:540px){
+    .container{
+        width: 500px;
+    }
+}
+#network {
+    display: inline;
+    width: 50%;
+}
